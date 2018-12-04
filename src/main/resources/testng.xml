@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TC_001_Add_Item_To_Cart">
+    <test verbose="2" preserve-order="true" name="D:\[ Automation ]\endavatest">
+    <classes>
+        <class name="com.automation.login.test.TC_001_AddToCart">
+            <methods>
+                <include name="openHomePage"/>
+                <include name="searchItem"/>
+                <include name="openDepartments"/>
+                <include name="setPriceRange"/>
+                <include name="setAgeRange"/>
+                <include name="openItem"/>
+                <include name="setQty"/>
+                <include name="addItemToCart"/>
+                <include name="checkCart"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>

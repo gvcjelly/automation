@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bwin.BettingPosApi.Contracts</name>
+    </assembly>
+    <members>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.BetNotifications.NotificationResponse.FeeInEuro">
+            <summary>
+            Always 0.1€ - amount of money which will be charger if the amount of free sms is used
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.BetNotifications.NotificationResponse.FreeSmsCount">
+            <summary>
+            Number of free SMS, if this value is 0 then there are no free sms left
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.BetNotifications.NotificationResponse.FeeInUserCurrency">
+            <summary>
+            Amount of money which will be charger if the amount of free sms is used in user currency, according to current echange rate calculation
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.BetNotifications.NotificationResponse.UserCurrencyCode">
+            <summary>
+            Three-letter curency code from user
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.BetNotifications.SetNotificationStatus.Success">
+            <summary>
+            Indicates if the subscription was successful or not
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.BetNotifications.SetNotificationStatus.Type">
+            <summary> //todo update the error types
+            In case of success null, otherwise one of the following errors:<br />
+            - notificationAlreadyExists, invalidBetSlipNumber
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.Constraints.Constraint.Name">
+            <summary>
+            Contraint name
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.Constraints.Constraint.Values">
+            <summary>
+            List of constraint values
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.Constraints.ConstraintResponse.Constraints">
+            <summary>
+            List of constraints
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.EarlyPayoutRequest.RequestId">
+            <summary>
+            Guid
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.EarlyPayoutRequest.Bets">
+            <summary>
+            Collection of bets to be payed out
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.EarlyPayoutResponse.Succeeded">
+            <summary>
+            Not null
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.EarlyPayoutResponse.Pending">
+            <summary>
+            Not null
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.EarlyPayoutResponse.Failed">
+            <summary>
+            Not null
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.ErrorPropertyBagMembers.Reason">
+            <summary>
+            Returned by BetNotAllowedForEarlyPayout
+            Values: PaidWithFreeBet, TaxApplied, BetProtected, MarketTemplateNotAllowed, System, Unknown, NotBasicModel, BetBlockedForEarlyPayout
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.ErrorPropertyBagMembers.ExpectedAmount">
+            <summary>
+            Returned by EarlyPayoutAmountChanged
+            Type: decimal
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.ErrorPropertyBagMembers.PossibleAmount">
+            <summary>
+            Returned by EarlyPayoutAmountChanged
+            Type: decimal
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.ErrorPropertyBagMembers.OptionId">
+            <summary>
+            Returned by ResultError, ChangedOptionStatus, CutOffDateReached, OptionInvisible, ResultNotFound
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.ErrorPropertyBagMembers.CutOffDate">
+            <summary>
+            Returned by CutOffDateReached
+            Type: int
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.ErrorPropertyBagMembers.PossiblePayout">
+            <summary>
+            Returned by OverMaxEarlyPayoutAmount
+            Type: DateTime
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.ErrorPropertyBagMembers.PossibleWin">
+            <summary>
+            Returned by OverMaxEarlyPayoutAmount
+            Type: decimal
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.ErrorPropertyBagMembers.MinimumAmount">
+            <summary>
+            Returned by UnderMinimumEarlyPayoutAmount
+            Type: decimal
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.ErrorPropertyBagMembers.PassedExpectedPayoutAmount">
+            <summary>
+            Returned by InconsistentMonetaryValue
+            Type: decimal
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.ErrorPropertyBagMembers.OddsKey">
+            <summary>
+            Returned by UnderMinOddsKey
+            Type: decimal
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.PayoutError.Type">
+            <summary>
+            Supported error type
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.PayoutError.PropertyBag">
+            <summary>
+            Dictionary of properties, key: property name (inline_model), value: property value
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.EarlyPayout.PossibleEarlyPayoutByBetNumberResponse.EarlyPayoutPossibilities">
+            <summary>
+            Not null
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.Amount">
+            <summary>
+            The available free bet amount.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.Channel">
+            <summary>
+            A flag indicating whether the free bet is restricted to specific channels (None/Desktop/Mobile/Native/MobileAll/All).
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.Code">
+            <summary>
+            A unique free bet code shared with marketing tools in HYD.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.CurrencyCode">
+            <summary>
+            The currency used when the free bet was created.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.ExpirationDate">
+            <summary>
+            The UTC date when the free bet expires.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.Fixtures">
+            <summary>
+            A collection of fixtures (previously called events).
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.Id">
+            <summary>
+            The internal BetAndWin ID.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.Leagues">
+            <summary>
+            A collection of league details.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.OpenDate">
+            <summary>
+            The UTC date when the free bet becomes usable.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.SitecoreReference">
+            <summary>
+            The Sitecore reference of the free bet.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.Sport">
+            <summary>
+            Contains details about the free bets sport.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.FreeBets.FreeBetData.Target">
+            <summary>
+            Defines if the free bet is assigned to a specific betting offer (Any/Mainbook/Livebook).
+            This information is generated based on league types, if any.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.MediaSigning.MediaSignature.AccountBalance">
+            <summary>
+            The current balance of the user's account.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.MediaSigning.MediaSignature.CurrencyCode">
+            <summary>
+            The currency of the user's account.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.MediaSigning.MediaSignature.ErrorCategory">
+            <summary>
+            The error category in case the user is not allowed to access the media stream.
+            Will be null if the media stream URI (see <see cref="P:Bwin.BettingPosApi.Contracts.Entities.V4.MediaSigning.MediaSignature.UriToken" />) could be created successfully.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.MediaSigning.MediaSignature.UriToken">
+            <summary>
+            Contains the signed media stream URI. Will be 'null' in case of an error.
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.MediaSigning.MediaUri.Description">
+            <summary>
+            A basic textual description of the media stream URI type.
+            Typically contains information about the stream provider and media type (audio/video).
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.MediaSigning.MediaUri.StreamUri">
+            <summary>
+            The signed media stream URI wrapped in a XML CDATA section.
+            Example: &lt;![CDATA[https://streamprovider.com/example/stream.xml?id=1234]]&gt;
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.StakeLimits.SetLimitRequestData.Value">
+            <summary>
+            New limit's value
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.StakeLimits.SetLimitRequestData.RequestId">
+            <summary>
+            Guid
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.StakeLimits.StakeLimitData.Type">
+            <summary>
+            Limit's type (MaxBetSingle/MaxBetCombo/SevenDays/All)
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.StakeLimits.StakeLimitData.Value">
+            <summary>
+            Limit's value
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.StakeLimits.StakeLimitData.Currency">
+            <summary>
+            Currency code
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.StakeLimits.StakeLimitData.DateCreated">
+            <summary>
+            Limit's creation date
+            </summary>
+        </member>
+        <member name="P:Bwin.BettingPosApi.Contracts.Entities.V4.StakeLimits.StakeLimitData.EffectiveFromDate">
+            <summary>
+            Limit's activation date
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.StakeLimits.StakeLimitResponse.Limits">
+            <summary>
+            Active limits collection
+            </summary>
+        </member>
+        <member name="F:Bwin.BettingPosApi.Contracts.Entities.V4.StakeLimits.StakeLimitResponse.PendingLimits">
+            <summary>
+            Pending limits collection
+            </summary>
+        </member>
+    </members>
+</doc>

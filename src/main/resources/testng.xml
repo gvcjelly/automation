@@ -3,6 +3,7 @@
 
 
 <suite name="TC_001_Add_Item_To_Cart">
+    <parameter name="browser" value="chrome" />
     <test verbose="2" preserve-order="true" name="TC_001_Login">
         <parameter name="browser" value="chrome" />
     <classes>

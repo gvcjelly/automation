@@ -21,9 +21,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
-
 import static com.automation.gvc.setup.ExtentManager.test;
-
 
 public class BasicSetup {
     public WebDriver driver;
@@ -38,7 +36,7 @@ public class BasicSetup {
         }
     }
 
-    @Parameters("browser")
+    @Parameters({"browser"})
     @BeforeSuite
     public void setup(String browser) throws MalformedURLException {
 

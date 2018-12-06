@@ -23,12 +23,8 @@ import static com.automation.gvc.setup.ExtentManager.test;
 import static com.automation.gvc.setup.ExtentManager.extent;
 
 public class BasicSetup {
+
     public WebDriver driver;
-
-    public static void main(String[] args) {
-        System.out.println("Main class defined.");
-    }
-
 
     public void takeScreenshot(WebDriver driver, String name) {
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

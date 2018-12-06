@@ -15,6 +15,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeSuite;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.testng.annotations.Parameters;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,6 +38,7 @@ public class BasicSetup {
         }
     }
 
+    @Parameters("browser")
     @BeforeSuite
     public void setup(String browser) throws MalformedURLException {
 

@@ -7,8 +7,8 @@
     <groupId>com.amazon</groupId>
     <artifactId>TC_001_Login</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <build>
 
+    <build>
         <resources>
             <resource>
                 <directory>src/main/java</directory>
@@ -77,6 +77,16 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+                        </property>
+                    </properties>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
@@ -151,6 +161,26 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-support</artifactId>
             <version>3.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.2</version>
         </dependency>
     </dependencies>
 </project>

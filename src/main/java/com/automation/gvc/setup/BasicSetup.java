@@ -32,7 +32,7 @@ public class BasicSetup {
     public void takeScreenshot(WebDriver driver, String name) {
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(scrFile, new File("Screenshots/Actual/" + name + ".png"));
+            FileUtils.copyFile(scrFile, new File("/../Screenshots/Actual/" + name + ".png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -94,7 +94,7 @@ public class BasicSetup {
                     test.fail(MarkupHelper.createLabel("[FAILED] Test failed on method: " + result.getName(), ExtentColor.RED));
                 scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
                 takeScreenshot(driver, testName);
-                    test.fail("Failed on screen:", MediaEntityBuilder.createScreenCaptureFromPath("../Screenshots/Failed/" + testName + ".png").build());
+                    test.fail("Failed on screen:", MediaEntityBuilder.createScreenCaptureFromPath("/../Screenshots/Failed/" + testName + ".png").build());
                     test.fail(result.getThrowable());
                 break;
 

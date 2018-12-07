@@ -14,7 +14,7 @@ public class ExtentManager {
     public static  ExtentTest test;
     private static ExtentHtmlReporter htmlReporter;
 
-    private static String htmlPath = "/report/TestReport.html";
+    private static String htmlPath = "/../report/TestReport.html";
     private static String confPath = "/../src/main/resources/extent-config.xml";
 
     public static ExtentReports GetExtent() {

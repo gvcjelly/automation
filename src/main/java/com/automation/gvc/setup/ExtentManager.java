@@ -14,7 +14,8 @@ public class ExtentManager {
     public static  ExtentTest test;
     private static ExtentHtmlReporter htmlReporter;
 
-    private static String filePath = "./report/TestReport.html";
+    private static String htmlPath = "/report/TestReport.html";
+    private static String confPath = "/../src/main/resources/extent-config.xml";
 
     public static ExtentReports GetExtent() {
         if (extent != null)
@@ -30,8 +31,8 @@ public class ExtentManager {
     }
 
     private static ExtentHtmlReporter getHtmlReporter() {
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + filePath);
-        htmlReporter.loadXMLConfig("../src/main/resources/extent-config.xml");
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + htmlPath);
+        htmlReporter.loadXMLConfig(System.getProperty("user.dir") + confPath);
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTheme(Theme.DARK);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);

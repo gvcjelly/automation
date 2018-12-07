@@ -1,3 +1,4 @@
-com\automation\gvc\test\TC_001_Login.class
+com\automation\gvc\setup\ConsoleRunner.class
 com\automation\gvc\setup\BasicSetup.class
 com\automation\gvc\setup\ExtentManager.class
+com\automation\gvc\test\TC_001_Login.class

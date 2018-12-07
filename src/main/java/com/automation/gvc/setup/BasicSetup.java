@@ -10,6 +10,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -25,6 +27,7 @@ import static com.automation.gvc.setup.ExtentManager.extent;
 public class BasicSetup {
 
     public WebDriver driver;
+    static Logger LOG = LoggerFactory.getLogger(BasicSetup.class);
 
     public void takeScreenshot(WebDriver driver, String name) {
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -39,23 +42,26 @@ public class BasicSetup {
     @BeforeSuite
     public void setup(String browser) throws MalformedURLException {
 
+        String pathChrome = System.getProperty("user.dir") + "/../src/main/resources/chromedriver.exe";
+        String pathFirefox = System.getProperty("user.dir") + "/../src/main/resources/geckodriver.exe";
+
         if (browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", pathChrome);
 
             ChromeOptions options = new ChromeOptions();
             options.addArguments("test-type");
             driver = new ChromeDriver();
-            test.info("| Chrome browser launched successfully |");
+            LOG.info("| Chrome browser launched successfully |");
 
 
         } else if (browser.equalsIgnoreCase("firefox")) {
 
-            System.setProperty("webdriver.gecko.driver", "./src/main/resources/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", pathFirefox);
             FirefoxProfile profile = new FirefoxProfile();
             profile.setAcceptUntrustedCertificates(true);
             profile.setAssumeUntrustedCertificateIssuer(true);
             driver = new FirefoxDriver();
-            test.info("| Firefox browser launched successfully |");
+            LOG.info("| Firefox browser launched successfully |");
         }
     }
 

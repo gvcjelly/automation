@@ -1,24 +1,36 @@
 package com.automation.gvc.setup;
 
+import org.apache.commons.io.FileUtils;
 import org.testng.TestNG;
+import org.testng.xml.Parser;
+import org.testng.xml.XmlSuite;
 
+import java.io.File;
+import java.io.InputStream;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ConsoleRunner {
 
-    static String testXML;
 
-    public void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
 
-        String filePath = new String("src/main/resources");
-        List<String> suites = new ArrayList<>();
-        URL resource = getClass().getClassLoader().getResource("testng.xml");
+        String xmlFile = "testng.xml";
+        Path xmlFrom = Paths.get(System.getProperty("user.dir") + "/../src/main/resources" + "/" + xmlFile);
+        Path xmlTo = Paths.get(System.getProperty("user.dir") + "/" + xmlFile);
+        Files.copy(xmlFrom, xmlTo, StandardCopyOption.REPLACE_EXISTING);
 
-        suites.add(((URL) resource).getFile());
+        String file = xmlTo + xmlFile;
+        InputStream xmlSuiteStream = ConsoleRunner.class.getResourceAsStream(file);
+        List<XmlSuite> suite = (List<XmlSuite>) new Parser(xmlSuiteStream).parse();
+
         TestNG testng = new TestNG();
-        testng.setTestSuites(suites);
+        testng.setXmlSuites(suite);
         testng.run();
     }
 }

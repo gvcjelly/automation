@@ -29,7 +29,7 @@ import static com.automation.gvc.setup.ExtentManager.extent;
 public class TC_001_Login extends BasicSetup {
 
     protected static String result;
-    private String baseUrl = "http://www.am";
+    private String baseUrl = "http://www.amazon.com";
     protected static Logger LOG = LoggerFactory.getLogger(TC_001_Login.class);
     public String articleName;
 

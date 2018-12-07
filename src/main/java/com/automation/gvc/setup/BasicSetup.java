@@ -70,19 +70,20 @@ public class BasicSetup {
     public void report(ITestResult result) throws Exception {
 
         String testName = result.getName();
-        String pathFail = System.getProperty("user.dir") + "\\Screenshots\\Failed\\";
-        String pathPass = System.getProperty("user.dir") + "\\Screenshots\\Passed\\";
+        String pathFail = System.getProperty("user.dir") + "/../Screenshots/Failed/";
+        String pathPass = System.getProperty("user.dir") + "/../Screenshots/Passed/";
         String name = result.getName();
-        File scrFile;
+        File filePass;
+        File fileFail;
 
         switch (result.getStatus()) {
 
             case ITestResult.SUCCESS:
                 System.out.println("PASSED: " + testName);
                 test.pass("| PASSED |" + name);
-                scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+                filePass = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
                 try {
-                    FileUtils.copyFile(scrFile, new File(pathPass + name + ".png"));
+                    FileUtils.copyFile(filePass, new File(pathPass + name + ".png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -92,9 +93,13 @@ public class BasicSetup {
                 Throwable throwable = result.getThrowable();
                 if (throwable != null)
                     test.fail(MarkupHelper.createLabel("[FAILED] Test failed on method: " + result.getName(), ExtentColor.RED));
-                scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-                takeScreenshot(driver, testName);
-                    test.fail("Failed on screen:", MediaEntityBuilder.createScreenCaptureFromPath("/../Screenshots/Failed/" + testName + ".png").build());
+                fileFail = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+                try {
+                    FileUtils.copyFile(fileFail, new File(pathFail + name + ".png"));
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                    test.fail("Failed on screen:", MediaEntityBuilder.createScreenCaptureFromPath(pathFail + testName + ".png").build());
                     test.fail(result.getThrowable());
                 break;
 

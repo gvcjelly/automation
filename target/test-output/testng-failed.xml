@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TC_001_Add_Item_To_Cart]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="TC_001_Login(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.gvc.test.TC_001_Login">
+        <methods>
+          <include name="startTest"/>
+          <include name="openHomePage"/>
+          <include name="addItemToCart"/>
+          <include name="tearDown"/>
+          <include name="openDepartments"/>
+          <include name="report"/>
+          <include name="setup"/>
+          <include name="openItem"/>
+          <include name="setPriceRange"/>
+          <include name="setQty"/>
+          <include name="setAgeRange"/>
+          <include name="checkCart"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- com.automation.gvc.test.TC_001_Login -->
+    </classes>
+  </test> <!-- TC_001_Login(failed) -->
+</suite> <!-- Failed suite [TC_001_Add_Item_To_Cart] -->

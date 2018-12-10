@@ -92,7 +92,7 @@ public class BasicSetup {
             case ITestResult.FAILURE:
                 Throwable throwable = result.getThrowable();
                 if (throwable != null)
-                    test.fail(MarkupHelper.createLabel("[FAILED] Test failed on method: " + result.getName(), ExtentColor.RED));
+                    test.fail(MarkupHelper.createLabel("| FAILED | Test failed on method: " + result.getName(), ExtentColor.RED));
                 fileFail = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
                 try {
                     FileUtils.copyFile(fileFail, new File(pathFail + name + ".png"));
@@ -104,7 +104,7 @@ public class BasicSetup {
                 break;
 
             case ITestResult.SKIP:
-                test.skip(MarkupHelper.createLabel("[SKIPPED]: " + testName, ExtentColor.ORANGE));
+                test.skip(MarkupHelper.createLabel("| SKIPPED | " + testName, ExtentColor.ORANGE));
                 break;
 
             default:

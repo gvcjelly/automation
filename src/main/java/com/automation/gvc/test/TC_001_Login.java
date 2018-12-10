@@ -59,8 +59,13 @@ public class TC_001_Login extends BasicSetup {
     public void openLoginPage() {
         WebDriverWait wait = new WebDriverWait(driver, 10);
 
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.class(btn_LogIn));
-        driver.findElement(By.class(btn_LogIn));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.className(btn_LogIn)));
+        WebElement login = driver.findElement(By.className(btn_LogIn));
+        if (login != null && login.getText().contains("LOG IN")) {
+            login.click();
+        } else {
+            System.out.println("LOG IN button cannot be found !!!");
+        }
     }
 }
 

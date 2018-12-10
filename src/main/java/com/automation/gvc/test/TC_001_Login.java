@@ -28,7 +28,7 @@ import static com.automation.gvc.setup.ExtentManager.extent;
 
 public class TC_001_Login extends BasicSetup {
 
-    private String baseUrl = "http:/qa1.sports.bwin.com";
+    private String baseUrl = "http://qa1.sports.bwin.com";
     protected static Logger LOG = LoggerFactory.getLogger(TC_001_Login.class);
     public String articleName;
 

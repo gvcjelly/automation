@@ -16,6 +16,9 @@ public class ExtentManager {
 
     private static String htmlPath = "/../report/TestReport.html";
     private static String confPath = "/../src/main/resources/extent-config.xml";
+    private static String osName = System.getProperty("os.name");
+    private static String osVersion = System.getProperty("os.version");
+    private static String osArch = System.getProperty("os.arch");
 
     public static ExtentReports GetExtent() {
         if (extent != null)
@@ -26,7 +29,9 @@ public class ExtentManager {
             extent.setSystemInfo("Project Name", "MS2");
             extent.setSystemInfo("Browser", "Chrome");
             extent.setSystemInfo("Browser Version", "65.0.3325.181");
-            extent.setSystemInfo("OS", "Windows");
+            extent.setSystemInfo("OS", osName);
+            extent.setSystemInfo("OS Version", osVersion);
+            extent.setSystemInfo("OS Arch", osArch);
             return extent;
     }
 

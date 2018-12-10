@@ -72,7 +72,6 @@ public class BasicSetup {
         String testName = result.getName();
         String pathFail = System.getProperty("user.dir") + "/../Screenshots/Failed/";
         String pathPass = System.getProperty("user.dir") + "/../Screenshots/Passed/";
-        String name = result.getName();
         File filePass;
         File fileFail;
 
@@ -80,10 +79,10 @@ public class BasicSetup {
 
             case ITestResult.SUCCESS:
                 System.out.println("PASSED: " + testName);
-                test.pass("| PASSED |" + name);
+                test.pass("| PASSED |" + testName);
                 filePass = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
                 try {
-                    FileUtils.copyFile(filePass, new File(pathPass + name + ".png"));
+                    FileUtils.copyFile(filePass, new File(pathPass + testName + ".png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -95,7 +94,7 @@ public class BasicSetup {
                     test.fail(MarkupHelper.createLabel("| FAILED | Test failed on method: " + result.getName(), ExtentColor.RED));
                 fileFail = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
                 try {
-                    FileUtils.copyFile(fileFail, new File(pathFail + name + ".png"));
+                    FileUtils.copyFile(fileFail, new File(pathFail + testName + ".png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

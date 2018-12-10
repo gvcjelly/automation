@@ -28,8 +28,7 @@ import static com.automation.gvc.setup.ExtentManager.extent;
 
 public class TC_001_Login extends BasicSetup {
 
-    protected static String result;
-    private String baseUrl = "http://www.amazon.com/";
+    private String baseUrl = "http:/qa1.sports.bwin.com";
     protected static Logger LOG = LoggerFactory.getLogger(TC_001_Login.class);
     public String articleName;
 
@@ -52,7 +51,6 @@ public class TC_001_Login extends BasicSetup {
         String url = driver.getCurrentUrl();
         Assert.assertEquals(url, baseUrl);
         System.out.println("Expected URL address has been opened successfully");
-        test.pass("[PASSED] STEP 1 - Open home page");
     }
 
 
@@ -74,7 +72,6 @@ public class TC_001_Login extends BasicSetup {
         } else {
             System.out.println("WARNING ! The string in 'Search Text' field is:" + actualSearchResult);
         }
-        test.pass("[PASSED] STEP 2 - Search for item");
     }
 
     @Test
@@ -93,7 +90,6 @@ public class TC_001_Login extends BasicSetup {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("div.a-expander-content:nth-child(6) > li:nth-child(5) > span:nth-child(1) > a:nth-child(1) > h4:nth-child(1)")));
         departmentToysAndGames.click();
         System.out.println("Department category has been opened successfully");
-        test.pass("[PASSED] STEP 3 - Open 'All Departments' list");
     }
 
     @Test
@@ -111,7 +107,6 @@ public class TC_001_Login extends BasicSetup {
         maxPriceField.sendKeys("150");
         maxPriceField.submit();
         System.out.println("Price range has been applied successfully");
-        test.pass("[PASSED] STEP 4 - Set price range");
     }
 
     @Test
@@ -122,7 +117,6 @@ public class TC_001_Login extends BasicSetup {
         WebElement checkbox14YearsAndUp = driver.findElement(By.name("s-ref-checkbox-5442388011"));
         checkbox14YearsAndUp.click();
         System.out.println("Age range has been setted to 14 Years & Up");
-        test.pass("[PASSED] STEP 5 - Set age range");
     }
 
     @Test
@@ -139,7 +133,6 @@ public class TC_001_Login extends BasicSetup {
 
         } catch (StaleElementReferenceException e) {
             System.out.println("Article cannot be found");
-            test.pass("[PASSED] STEP 6 - Open item from search results");
         }
     }
 
@@ -151,7 +144,6 @@ public class TC_001_Login extends BasicSetup {
         Select qty = new Select(driver.findElement(By.id("quantity")));
         qty.selectByIndex(2);
         System.out.println("Quantity changed successfully");
-        test.pass("[PASSED] STEP 7 - Set quantity for current item");
     }
 
     @Test
@@ -159,7 +151,6 @@ public class TC_001_Login extends BasicSetup {
         WebElement addToCart = driver.findElement(By.id("add-to-cart-button"));
         addToCart.click();
         System.out.println("Item has been added to cart successfully");
-        test.pass("[PASSED] STEP 8 - Add item to cart");
     }
 
     @Test
@@ -178,18 +169,18 @@ public class TC_001_Login extends BasicSetup {
 
         long start = System.currentTimeMillis();
         int q = 0;
-        File file1 = new File("./Screenshots/BufferedWriter_Article.txt");
+        File file1 = new File("/../Screenshots/BufferedWriter_Article.txt");
 
         FileWriter fw = new FileWriter(file1.getAbsoluteFile());
         BufferedWriter bw = new BufferedWriter(fw);
 
-        File fileA = new File("Screenshots/Expected/Article_Expected.png");
+        File fileA = new File("/../Screenshots/Expected/Article_Expected.png");
         BufferedImage image = ImageIO.read(fileA);
         int width = image.getWidth(null);
         int height = image.getHeight(null);
         int[][] clr = new int[width][height];
 
-        File fileB = new File("Screenshots/Actual/Article_Actual.png");
+        File fileB = new File("/../Screenshots/Actual/Article_Actual.png");
         BufferedImage images = ImageIO.read(fileB);
         int widthe = images.getWidth(null);
         int heighte = images.getHeight(null);

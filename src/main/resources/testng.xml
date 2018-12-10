@@ -10,14 +10,7 @@
         <class name="com.automation.gvc.test.TC_001_Login">
             <methods>
                 <include name="openHomePage"/>
-                <include name="searchItem"/>
-                <include name="openDepartments"/>
-                <include name="setPriceRange"/>
-                <include name="setAgeRange"/>
-                <include name="openItem"/>
-                <include name="setQty"/>
-                <include name="addItemToCart"/>
-                <include name="checkCart"/>
+                <include name="openLoginPage"/>
             </methods>
         </class>
     </classes>

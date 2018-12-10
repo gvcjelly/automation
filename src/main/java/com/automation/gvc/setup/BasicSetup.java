@@ -80,7 +80,7 @@ public class BasicSetup {
 
             case ITestResult.SUCCESS:
                 System.out.println("PASSED: " + testName);
-                test.pass("| PASSED |" + name);
+                test.pass("[PASSED]" + name);
                 filePass = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
                 try {
                     FileUtils.copyFile(filePass, new File(pathPass + name + ".png"));

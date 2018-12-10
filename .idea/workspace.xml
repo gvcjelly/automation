@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97300c13-51f6-4dbb-990d-675eabc7aca0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/TestReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/TestReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/BasicSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/BasicSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/extent-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/extent-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Screenshots/Passed/searchItem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/TC_001_Add_Item_To_Cart/TC_001_Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/TC_001_Add_Item_To_Cart/TC_001_Login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/TC_001_Add_Item_To_Cart/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/junitreports/TEST-com.automation.gvc.test.TC_001_Login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/TC_001_Login.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/TC_001_Add_Item_To_Cart/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/testng.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
+            <state relative-caret-position="410">
               <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
             </state>
           </provider>
@@ -63,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/ConsoleRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,33 +37,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/PageObjects/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="597">
+              <caret line="253" column="11" selection-start-line="253" selection-start-column="11" selection-end-line="253" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/BasicSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+            <state relative-caret-position="478">
+              <caret line="97" column="66" selection-start-line="97" selection-start-column="66" selection-end-line="97" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4657#4658#0" expanded="true" />
                 <element signature="e#4687#4688#0" expanded="true" />
-                <element signature="e#4749#4750#0" expanded="true" />
                 <element signature="e#4778#4779#0" expanded="true" />
               </folding>
             </state>
@@ -108,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/extent-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -123,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -169,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/automation/endava/TC_001_Elements.java" />
         <option value="$PROJECT_DIR$/src/main/java/ExtentManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/automation/endava/report/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/extent-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/automation/endava/setup/ExtentManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/automation/endava/setup/BasicSetup.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/automation/endava/test/TC_001_AddToCart.java" />
@@ -176,10 +134,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/ConsoleRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/ExtentManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/automation/gvc/PageObjects/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/BasicSetup.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/extent-config.xml" />
       </list>
     </option>
   </component>
@@ -221,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,13 +239,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544442319095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544198710499" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/automation/endava" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -300,23 +256,23 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\[ Automation ]\endavatest\Screenshots\Expected" />
+      <recent name="D:\[ Automation ]\endavatest\Screenshots" />
+      <recent name="D:\[ Automation ]\endavatest\report" />
+      <recent name="D:\[ Automation ]\endavatest\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.automation.endava.report" />
       <recent name="com.automation.endava.test" />
       <recent name="com.automation.endava" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GVC_TEST\src\main\resources" />
       <recent name="C:\GVC_TEST\target" />
       <recent name="D:\[ Automation ]\endavatest\lib" />
       <recent name="D:\[ Automation ]\endavatest\src\main\java\com\automation\endava\setup" />
       <recent name="D:\[ Automation ]\endavatest\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\[ Automation ]\endavatest\Screenshots\Expected" />
-      <recent name="D:\[ Automation ]\endavatest\Screenshots" />
-      <recent name="D:\[ Automation ]\endavatest\report" />
-      <recent name="D:\[ Automation ]\endavatest\src\main\resources" />
+      <recent name="D:\[ Automation ]\endavatest\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -432,8 +388,6 @@
       <workItem from="1544102919411" duration="1494000" />
       <workItem from="1544104614181" duration="6892000" />
       <workItem from="1544173907033" duration="13061000" />
-      <workItem from="1544199201139" duration="713000" />
-      <workItem from="1544429422485" duration="3081000" />
     </task>
     <servers />
   </component>
@@ -470,12 +424,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150152000" />
+    <option name="totallyTimeSpent" value="146358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,7 +460,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
       <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.05970149" />
-      <window_info anchor="right" id="SciView" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,9 +473,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/endava/setup/ExtentManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/endava/setup/BasicSetup.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/endava/test/TC_001_AddToCart.java" />
-    <entry file="file://$PROJECT_DIR$/target/testng.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/extentreports-3.1.3.jar!/com/aventstack/extentreports/MediaEntityBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
@@ -530,47 +480,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/ConsoleRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/testng.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
+        <state relative-caret-position="410">
           <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/extent-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/PageObjects/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/ConsoleRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/BasicSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        <state relative-caret-position="561">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4657#4658#0" expanded="true" />
-            <element signature="e#4687#4688#0" expanded="true" />
-            <element signature="e#4749#4750#0" expanded="true" />
-            <element signature="e#4778#4779#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -582,17 +521,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/extent-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="597">
+          <caret line="253" column="11" selection-start-line="253" selection-start-column="11" selection-end-line="253" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/BasicSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="478">
+          <caret line="97" column="66" selection-start-line="97" selection-start-column="66" selection-end-line="97" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4687#4688#0" expanded="true" />
+            <element signature="e#4778#4779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

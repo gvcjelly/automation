@@ -1,6 +1,4 @@
-com\automation\gvc\PageObjects\HomePage.class
 com\automation\gvc\setup\ConsoleRunner.class
-com\automation\gvc\PageObjects\HomePage$Home.class
 com\automation\gvc\setup\BasicSetup.class
 com\automation\gvc\setup\ExtentManager.class
 com\automation\gvc\test\TC_001_Login.class

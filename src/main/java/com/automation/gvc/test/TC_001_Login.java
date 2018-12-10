@@ -30,9 +30,8 @@ import static com.automation.gvc.PageObjects.HomePage.btn_LogIn;
 
 public class TC_001_Login extends BasicSetup {
 
-    private String baseUrl = "http://qa1.sports.bwin.com";
+    private String baseUrl = "http://qa1.sports.bwin.com/en/sports";
     protected static Logger LOG = LoggerFactory.getLogger(TC_001_Login.class);
-    public String articleName;
 
 
     @BeforeClass
@@ -60,8 +59,8 @@ public class TC_001_Login extends BasicSetup {
     public void openLoginPage() {
         WebDriverWait wait = new WebDriverWait(driver, 10);
 
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.className(btn_LogIn)));
-        driver.findElement(By.className(btn_LogIn)).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.class(btn_LogIn));
+        driver.findElement(By.class(btn_LogIn));
     }
 }
 

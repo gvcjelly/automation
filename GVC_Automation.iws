@@ -2,11 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0e02d10-d8ae-45f5-944d-9f3e24226aee" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/GVC_Automation.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/GVC_Automation.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GVC_Automation.iws" beforeDir="false" afterPath="$PROJECT_DIR$/GVC_Automation.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TC_001_Login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TC_001_Login.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/gvc/PageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/gvc/PageObjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/binding/binding.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/binding/binding.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/BulkLookUpByForeignSystemId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/BulkLookUpByForeignSystemId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/BulkLookUpByForeignSystemIdResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/BulkLookUpByForeignSystemIdResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/ChangeUserCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/ChangeUserCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/ChangeUserCountryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/ChangeUserCountryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/ChangeUserJurisdiction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/ChangeUserJurisdiction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/ChangeUserJurisdictionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/ChangeUserJurisdictionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/ChangeUserLoyaltyStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/ChangeUserLoyaltyStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/ChangeUserLoyaltyStatusResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/ChangeUserLoyaltyStatusResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/CreateSportsUserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/CreateSportsUserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/CreateSportsUserProfileResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/CreateSportsUserProfileResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/GetAssociatedAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/GetAssociatedAccounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/GetAssociatedAccountsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/GetAssociatedAccountsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/GetCustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/GetCustomerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/GetCustomerDataResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/GetCustomerDataResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/GetExternalId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/GetExternalId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/GetExternalIdResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/GetExternalIdResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/LookUpByForeignSystemId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/LookUpByForeignSystemId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/LookUpByForeignSystemIdResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/LookUpByForeignSystemIdResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/LookUpBySportsBookUserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/LookUpBySportsBookUserId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/LookUpBySportsBookUserIdResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/LookUpBySportsBookUserIdResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/SetCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/SetCurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/SetCurrencyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/SetCurrencyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/customerconnector/_1/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/CheckPossibleEarlyPayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/CheckPossibleEarlyPayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/CheckPossibleEarlyPayoutAndSubscribe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/CheckPossibleEarlyPayoutAndSubscribe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/CheckPossibleEarlyPayoutAndSubscribeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/CheckPossibleEarlyPayoutAndSubscribeResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/CheckPossibleEarlyPayoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/CheckPossibleEarlyPayoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/EarlyPayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/EarlyPayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/EarlyPayoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/EarlyPayoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/EarlyPayoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/EarlyPayoutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/GetAutoCashout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/GetAutoCashout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/GetAutoCashoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/GetAutoCashoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/GetEarlyPayoutConstraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/GetEarlyPayoutConstraints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/GetEarlyPayoutConstraintsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/GetEarlyPayoutConstraintsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/GetStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/GetStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/GetStatusResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/GetStatusResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceCheckPossibleEarlyPayoutAndSubscribeTechnicalFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceCheckPossibleEarlyPayoutAndSubscribeTechnicalFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceCheckPossibleEarlyPayoutTechnicalFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceCheckPossibleEarlyPayoutTechnicalFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceEarlyPayoutRequestIdBlockedFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceEarlyPayoutRequestIdBlockedFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceEarlyPayoutTechnicalFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceEarlyPayoutTechnicalFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceGetAutoCashoutTechnicalFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceGetAutoCashoutTechnicalFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceGetEarlyPayoutConstraintsTechnicalFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceGetEarlyPayoutConstraintsTechnicalFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceGetStatusRequestIdBlockedFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceGetStatusRequestIdBlockedFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceGetStatusRequestIdNotFoundFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceGetStatusRequestIdNotFoundFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceGetStatusTechnicalFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceGetStatusTechnicalFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceRemoveAutoCashoutTechnicalFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceRemoveAutoCashoutTechnicalFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceSetAutoCashoutTechnicalFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceSetAutoCashoutTechnicalFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceUndoEarlyPayoutTechnicalFaultFaultFaultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutServiceUndoEarlyPayoutTechnicalFaultFaultFaultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/RemoveAutoCashout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/RemoveAutoCashout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/RemoveAutoCashoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/RemoveAutoCashoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/SetAutoCashout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/SetAutoCashout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/SetAutoCashoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/SetAutoCashoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/UndoEarlyPayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/UndoEarlyPayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/UndoEarlyPayoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/UndoEarlyPayoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/services/earlypayoutservice/_3/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/ArrayOfAutoCashoutBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/ArrayOfAutoCashoutBet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/ArrayOfEarlyPayoutBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/ArrayOfEarlyPayoutBet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/ArrayOfEarlyPayoutError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/ArrayOfEarlyPayoutError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/ArrayOfEarlyPayoutPossibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/ArrayOfEarlyPayoutPossibility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutBet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutNotAllowed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutNotAllowed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutNotificationNotAllowed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutNotificationNotAllowed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutSucceeded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutSucceeded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/AutoCashoutType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/Bet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/Bet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/BetEarlyPayoutNotAllowedReason.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/BetEarlyPayoutNotAllowedReason.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/BetFromDifferentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/BetFromDifferentUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/BetLost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/BetLost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/BetNotAllowedForEarlyPayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/BetNotAllowedForEarlyPayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/BetNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/BetNotFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/ChangedBetSlipState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/ChangedBetSlipState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/ChangedResultStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/ChangedResultStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/CheckPossibleEarlyPayoutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/CheckPossibleEarlyPayoutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/CheckPossibleEarlyPayoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/CheckPossibleEarlyPayoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/CutOffDateReached.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/CutOffDateReached.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/DuplicatedAutoCashout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/DuplicatedAutoCashout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/DuplicatedEarlyPayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/DuplicatedEarlyPayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutAmountChanged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutAmountChanged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutBet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutNotAllowed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutNotAllowed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutNotFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutPending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutPending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutPossibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutPossibility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutSucceeded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EarlyPayoutSucceeded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/EditBetData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/EditBetData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/GetAutoCashoutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/GetAutoCashoutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/GetAutoCashoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/GetAutoCashoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/GetEarlyPayoutConstraintsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/GetEarlyPayoutConstraintsRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/GetEarlyPayoutConstraintsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/GetEarlyPayoutConstraintsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/GetStatusRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/GetStatusRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/GetStatusResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/GetStatusResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/InconsistentMonetaryValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/InconsistentMonetaryValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/OverMaxEarlyPayoutAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/OverMaxEarlyPayoutAmount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/PayoutAcceptanceMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/PayoutAcceptanceMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/RemoveAutoCashoutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/RemoveAutoCashoutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/RequestId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/RequestId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/RequestIdBlockedFault.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/RequestIdBlockedFault.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/RequestIdNotFoundFault.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/RequestIdNotFoundFault.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/ResultError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/ResultError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/ResultInvisible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/ResultInvisible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/ResultNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/ResultNotFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/SetAutoCashoutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/SetAutoCashoutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/TechnicalError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/TechnicalError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/TechnicalFault.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/TechnicalFault.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/UnderMinEarlyPayoutAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/UnderMinEarlyPayoutAmount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/UnderMinOddsKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/UnderMinOddsKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/UndoEarlyPayoutFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/UndoEarlyPayoutFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/UndoEarlyPayoutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/UndoEarlyPayoutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/UndoEarlyPayoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/UndoEarlyPayoutResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/UndoEarlyPayoutSucceeded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/UndoEarlyPayoutSucceeded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bwin/xmlns/types/earlypayoutservice/_3/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microsoft/schemas/_2003/_10/serialization/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/serialization/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microsoft/schemas/_2003/_10/serialization/arrays/ArrayOfKeyValueOfintBetNNSPdE8A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/serialization/arrays/ArrayOfKeyValueOfintBetNNSPdE8A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microsoft/schemas/_2003/_10/serialization/arrays/ArrayOfKeyValueOfintEarlyPayoutStatusNNSPdE8A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/serialization/arrays/ArrayOfKeyValueOfintEarlyPayoutStatusNNSPdE8A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microsoft/schemas/_2003/_10/serialization/arrays/ArrayOfstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/serialization/arrays/ArrayOfstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microsoft/schemas/_2003/_10/serialization/arrays/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/serialization/arrays/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microsoft/schemas/_2003/_10/serialization/arrays/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/services/serialization/arrays/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tempuri/ICustomerConnectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tempuri/ICustomerConnectorService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,38 +147,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasicSetup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/BasicSetup.java">
+      <file leaf-file-name="binding.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/binding/binding.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="272">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/ConsoleRunner.java">
+      <file leaf-file-name="IEarlyPayoutService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="-748">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TC_001_Login.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java">
+      <file leaf-file-name="CheckPossibleEarlyPayout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/CheckPossibleEarlyPayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="510">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/PageObjects/HomePage.java">
+      <file leaf-file-name="LookUpBySportsBookUserIdResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/LookUpBySportsBookUserIdResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="510">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICustomerConnectorService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/tempuri/ICustomerConnectorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/serialization/ObjectFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2371">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/package-info.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/ObjectFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-943">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -60,6 +239,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="GuiceNewBindingAnnotation" />
       </list>
     </option>
   </component>
@@ -73,6 +254,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/ConsoleRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/automation/gvc/PageObjects/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/ChangeUserCountryResponse.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -106,10 +290,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,6 +302,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,7 +334,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gvc" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GVC_Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -157,8 +342,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gvc" type="462c0819:PsiDirectoryNode" />
-              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GVC_Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -166,8 +351,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gvc" type="462c0819:PsiDirectoryNode" />
-              <item name="setup" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GVC_Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -175,26 +361,106 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gvc" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlns" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVC_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVC_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlns" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVC_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVC_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlns" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVC_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVC_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlns" type="462c0819:PsiDirectoryNode" />
+              <item name="_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVC_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVC_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVC_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVC_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="bwin_sportsbook_customerconnector_service_datacontracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVC_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVC_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="tempuri" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVC_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVC_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/JAX-WS-HelloWorld-RPC-Example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.services.microsoft.schemas._2003" />
+      <recent name="com.services" />
+      <recent name="com.services.bwin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GVC_TEST\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,11 +539,12 @@
       <workItem from="1544469033737" duration="913000" />
       <workItem from="1544471280276" duration="1931000" />
       <workItem from="1544473300272" duration="1283000" />
+      <workItem from="1544554937055" duration="9058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7898000" />
+    <option name="totallyTimeSpent" value="16956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -287,17 +554,20 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" weight="0.32960895" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32969153" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="REST Client" weight="0.44134077" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2866324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29048842" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -309,7 +579,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +588,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/BasicSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/ConsoleRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/PageObjects/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/test/TC_001_Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/BasicSetup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -431,17 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/ConsoleRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/PageObjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -456,6 +746,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/gvc/setup/ConsoleRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="306">
+            <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/serialization/arrays/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-776">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/serialization/arrays/ArrayOfstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/serialization/arrays/ArrayOfKeyValueOfintBetNNSPdE8A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/ChangeUserCountryResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/BetLost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app7.tld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/binding/h.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/binding/binding.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/serialization/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2371">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/types/earlypayoutservice/_3/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/IEarlyPayoutService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/earlypayoutservice/_3/CheckPossibleEarlyPayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/bwin/xmlns/services/customerconnector/_1/LookUpBySportsBookUserIdResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tempuri/ICustomerConnectorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -541,6 +972,17 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19625" />
               </list>
             </option>
           </splitter-proportions>

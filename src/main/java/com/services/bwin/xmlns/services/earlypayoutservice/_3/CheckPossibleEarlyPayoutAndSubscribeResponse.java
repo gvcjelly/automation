@@ -1,0 +1,66 @@
+
+package com.services.bwin.xmlns.services.earlypayoutservice._3;
+
+import javax.xml.bind.JAXBElement;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElementRef;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+import com.services.bwin.xmlns.types.earlypayoutservice._3.CheckPossibleEarlyPayoutResponse;
+
+
+/**
+ * <p>Java class for anonymous complex type.
+ * 
+ * <p>The following schema fragment specifies the expected content contained within this class.
+ * 
+ * <pre>
+ * &lt;complexType>
+ *   &lt;complexContent>
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *       &lt;sequence>
+ *         &lt;element name="CheckPossibleEarlyPayoutAndSubscribeResult" type="{http://xmlns.bwin.com/types/EarlyPayoutService/3.0}CheckPossibleEarlyPayoutResponse" minOccurs="0"/>
+ *       &lt;/sequence>
+ *     &lt;/restriction>
+ *   &lt;/complexContent>
+ * &lt;/complexType>
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "", propOrder = {
+    "checkPossibleEarlyPayoutAndSubscribeResult"
+})
+@XmlRootElement(name = "CheckPossibleEarlyPayoutAndSubscribeResponse")
+public class CheckPossibleEarlyPayoutAndSubscribeResponse {
+
+    @XmlElementRef(name = "CheckPossibleEarlyPayoutAndSubscribeResult", namespace = "http://xmlns.bwin.com/services/EarlyPayoutService/3.0", type = JAXBElement.class, required = false)
+    protected JAXBElement<CheckPossibleEarlyPayoutResponse> checkPossibleEarlyPayoutAndSubscribeResult;
+
+    /**
+     * Gets the value of the checkPossibleEarlyPayoutAndSubscribeResult property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link JAXBElement }{@code <}{@link CheckPossibleEarlyPayoutResponse }{@code >}
+     *     
+     */
+    public JAXBElement<CheckPossibleEarlyPayoutResponse> getCheckPossibleEarlyPayoutAndSubscribeResult() {
+        return checkPossibleEarlyPayoutAndSubscribeResult;
+    }
+
+    /**
+     * Sets the value of the checkPossibleEarlyPayoutAndSubscribeResult property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link JAXBElement }{@code <}{@link CheckPossibleEarlyPayoutResponse }{@code >}
+     *     
+     */
+    public void setCheckPossibleEarlyPayoutAndSubscribeResult(JAXBElement<CheckPossibleEarlyPayoutResponse> value) {
+        this.checkPossibleEarlyPayoutAndSubscribeResult = value;
+    }
+
+}

@@ -28,7 +28,7 @@
                 <version>2.5</version>
                 <configuration>
                     <sourceDestDir>${project.build.sourceDirectory}</sourceDestDir>
-                    <bindingDirectory>${project.basedir}/src/main/bindings</bindingDirectory>
+                    <bindingDirectory>${project.basedir}/src/main/com/services/binding</bindingDirectory>
                     <extension>true</extension>
                     <genWsdl>false</genWsdl>
                     <xdisableSSLHostnameVerification>false</xdisableSSLHostnameVerification>

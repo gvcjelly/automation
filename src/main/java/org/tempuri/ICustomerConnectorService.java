@@ -36,8 +36,8 @@ import org.datacontract.schemas._2004._07.bwin_sportsbook_customerconnector_serv
  */
 @WebService(name = "ICustomerConnectorService", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
 @XmlSeeAlso({
-    com.bwin.xmlns.services.customerconnector._1.ObjectFactory.class,
-    com.microsoft.schemas._2003._10.serialization.ObjectFactory.class,
+    com.services.bwin.xmlns.services.customerconnector._1.ObjectFactory.class,
+    com.services.serialization.ObjectFactory.class,
     org.datacontract.schemas._2004._07.bwin_sportsbook_customerconnector_service_datacontracts.ObjectFactory.class
 })
 public interface ICustomerConnectorService {
@@ -56,8 +56,8 @@ public interface ICustomerConnectorService {
      */
     @WebMethod(operationName = "GetCustomerData", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/GetCustomerData")
     @WebResult(name = "GetCustomerDataResult", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
-    @RequestWrapper(localName = "GetCustomerData", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.GetCustomerData")
-    @ResponseWrapper(localName = "GetCustomerDataResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.GetCustomerDataResponse")
+    @RequestWrapper(localName = "GetCustomerData", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.GetCustomerData")
+    @ResponseWrapper(localName = "GetCustomerDataResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.GetCustomerDataResponse")
     public CustomerData getCustomerData(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         GetCustomerDataRequest request)
@@ -75,8 +75,8 @@ public interface ICustomerConnectorService {
      */
     @WebMethod(operationName = "CreateSportsUserProfile", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/CreateSportsUserProfile")
     @WebResult(name = "CreateSportsUserProfileResult", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
-    @RequestWrapper(localName = "CreateSportsUserProfile", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.CreateSportsUserProfile")
-    @ResponseWrapper(localName = "CreateSportsUserProfileResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.CreateSportsUserProfileResponse")
+    @RequestWrapper(localName = "CreateSportsUserProfile", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.CreateSportsUserProfile")
+    @ResponseWrapper(localName = "CreateSportsUserProfileResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.CreateSportsUserProfileResponse")
     public Long createSportsUserProfile(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         CreateUserProfileRequest request)
@@ -94,8 +94,8 @@ public interface ICustomerConnectorService {
      */
     @WebMethod(operationName = "LookUpBySportsBookUserId", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/LookUpBySportsBookUserId")
     @WebResult(name = "LookUpBySportsBookUserIdResult", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
-    @RequestWrapper(localName = "LookUpBySportsBookUserId", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.LookUpBySportsBookUserId")
-    @ResponseWrapper(localName = "LookUpBySportsBookUserIdResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.LookUpBySportsBookUserIdResponse")
+    @RequestWrapper(localName = "LookUpBySportsBookUserId", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.LookUpBySportsBookUserId")
+    @ResponseWrapper(localName = "LookUpBySportsBookUserIdResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.LookUpBySportsBookUserIdResponse")
     public CachedProfileData lookUpBySportsBookUserId(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         LookUpBySportsBookUserIdRequest request)
@@ -113,8 +113,8 @@ public interface ICustomerConnectorService {
      */
     @WebMethod(operationName = "LookUpByForeignSystemId", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/LookUpByForeignSystemId")
     @WebResult(name = "LookUpByForeignSystemIdResult", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
-    @RequestWrapper(localName = "LookUpByForeignSystemId", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.LookUpByForeignSystemId")
-    @ResponseWrapper(localName = "LookUpByForeignSystemIdResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.LookUpByForeignSystemIdResponse")
+    @RequestWrapper(localName = "LookUpByForeignSystemId", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.LookUpByForeignSystemId")
+    @ResponseWrapper(localName = "LookUpByForeignSystemIdResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.LookUpByForeignSystemIdResponse")
     public CachedProfileData lookUpByForeignSystemId(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         LookUpByForeignSystemIdRequest request)
@@ -132,8 +132,8 @@ public interface ICustomerConnectorService {
      */
     @WebMethod(operationName = "BulkLookUpByForeignSystemId", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/BulkLookUpByForeignSystemId")
     @WebResult(name = "BulkLookUpByForeignSystemIdResult", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
-    @RequestWrapper(localName = "BulkLookUpByForeignSystemId", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.BulkLookUpByForeignSystemId")
-    @ResponseWrapper(localName = "BulkLookUpByForeignSystemIdResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.BulkLookUpByForeignSystemIdResponse")
+    @RequestWrapper(localName = "BulkLookUpByForeignSystemId", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.BulkLookUpByForeignSystemId")
+    @ResponseWrapper(localName = "BulkLookUpByForeignSystemIdResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.BulkLookUpByForeignSystemIdResponse")
     public ArrayOfCachedProfileData bulkLookUpByForeignSystemId(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         ArrayOfLookUpByForeignSystemIdRequest request)
@@ -152,8 +152,8 @@ public interface ICustomerConnectorService {
      */
     @WebMethod(operationName = "ChangeUserCountry", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/ChangeUserCountry")
     @WebResult(name = "ChangeUserCountryResult", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
-    @RequestWrapper(localName = "ChangeUserCountry", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.ChangeUserCountry")
-    @ResponseWrapper(localName = "ChangeUserCountryResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.ChangeUserCountryResponse")
+    @RequestWrapper(localName = "ChangeUserCountry", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.ChangeUserCountry")
+    @ResponseWrapper(localName = "ChangeUserCountryResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.ChangeUserCountryResponse")
     public CachedProfileData changeUserCountry(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         ChangeUserCountryRequest request)
@@ -172,8 +172,8 @@ public interface ICustomerConnectorService {
      */
     @WebMethod(operationName = "ChangeUserLoyaltyStatus", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/ChangeUserLoyaltyStatus")
     @WebResult(name = "ChangeUserLoyaltyStatusResult", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
-    @RequestWrapper(localName = "ChangeUserLoyaltyStatus", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.ChangeUserLoyaltyStatus")
-    @ResponseWrapper(localName = "ChangeUserLoyaltyStatusResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.ChangeUserLoyaltyStatusResponse")
+    @RequestWrapper(localName = "ChangeUserLoyaltyStatus", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.ChangeUserLoyaltyStatus")
+    @ResponseWrapper(localName = "ChangeUserLoyaltyStatusResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.ChangeUserLoyaltyStatusResponse")
     public LoyaltyStatusData changeUserLoyaltyStatus(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         ChangeUserLoyaltyStatusRequest request)
@@ -191,8 +191,8 @@ public interface ICustomerConnectorService {
      */
     @WebMethod(operationName = "GetAssociatedAccounts", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/GetAssociatedAccounts")
     @WebResult(name = "GetAssociatedAccountsResult", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
-    @RequestWrapper(localName = "GetAssociatedAccounts", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.GetAssociatedAccounts")
-    @ResponseWrapper(localName = "GetAssociatedAccountsResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.GetAssociatedAccountsResponse")
+    @RequestWrapper(localName = "GetAssociatedAccounts", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.GetAssociatedAccounts")
+    @ResponseWrapper(localName = "GetAssociatedAccountsResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.GetAssociatedAccountsResponse")
     public GetAssociatedAccountsResp getAssociatedAccounts(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         GetAssociatedAccountsReq request)
@@ -207,8 +207,8 @@ public interface ICustomerConnectorService {
      * @throws ICustomerConnectorServiceSetCurrencyMalformedRequestFaultFaultFaultMessage
      */
     @WebMethod(operationName = "SetCurrency", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/SetCurrency")
-    @RequestWrapper(localName = "SetCurrency", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.SetCurrency")
-    @ResponseWrapper(localName = "SetCurrencyResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.SetCurrencyResponse")
+    @RequestWrapper(localName = "SetCurrency", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.SetCurrency")
+    @ResponseWrapper(localName = "SetCurrencyResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.SetCurrencyResponse")
     public void setCurrency(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         SetCurrencyRequest request)
@@ -227,8 +227,8 @@ public interface ICustomerConnectorService {
      */
     @WebMethod(operationName = "ChangeUserJurisdiction", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/ChangeUserJurisdiction")
     @WebResult(name = "ChangeUserJurisdictionResult", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
-    @RequestWrapper(localName = "ChangeUserJurisdiction", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.ChangeUserJurisdiction")
-    @ResponseWrapper(localName = "ChangeUserJurisdictionResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.ChangeUserJurisdictionResponse")
+    @RequestWrapper(localName = "ChangeUserJurisdiction", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.ChangeUserJurisdiction")
+    @ResponseWrapper(localName = "ChangeUserJurisdictionResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.ChangeUserJurisdictionResponse")
     public JurisdictionStatusData changeUserJurisdiction(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         JurisdictionRequest request)
@@ -246,8 +246,8 @@ public interface ICustomerConnectorService {
      */
     @WebMethod(operationName = "GetExternalId", action = "http://xmlns.bwin.com/services/CustomerConnector/1.2/ICustomerConnectorService/GetExternalId")
     @WebResult(name = "GetExternalIdResult", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
-    @RequestWrapper(localName = "GetExternalId", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.GetExternalId")
-    @ResponseWrapper(localName = "GetExternalIdResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.bwin.xmlns.services.customerconnector._1.GetExternalIdResponse")
+    @RequestWrapper(localName = "GetExternalId", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.GetExternalId")
+    @ResponseWrapper(localName = "GetExternalIdResponse", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2", className = "com.services.bwin.xmlns.services.customerconnector._1.GetExternalIdResponse")
     public GetExternalIdResponse getExternalId(
         @WebParam(name = "request", targetNamespace = "http://xmlns.bwin.com/services/CustomerConnector/1.2")
         GetExternalIdRequest request)

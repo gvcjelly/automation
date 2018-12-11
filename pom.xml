@@ -23,6 +23,41 @@
         <plugins>
 
             <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>2.5</version>
+                <configuration>
+                    <sourceDestDir>${project.build.sourceDirectory}</sourceDestDir>
+                    <bindingDirectory>${project.basedir}/src/main/bindings</bindingDirectory>
+                    <extension>true</extension>
+                    <genWsdl>false</genWsdl>
+                    <xdisableSSLHostnameVerification>false</xdisableSSLHostnameVerification>
+                    <keep>true</keep>
+                    <protocol>soap1.1</protocol>
+                    <verbose>true</verbose>
+                    <xnocompile>true</xnocompile>
+                    <xdebug>true</xdebug>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <vmArgs>
+                                <vmArg>-Djavax.net.ssl.trustStore=${project.basedir}/src/main/ssl/catastro.jks</vmArg>
+                                <vmArg>-Djavax.net.ssl.trustStorePassword=changeit</vmArg>
+                            </vmArgs>
+                            <wsdlUrls>
+                                <wsdlUrl>http://integration.earlypayout.bwin.dev/3.0/EarlyPayoutService.svc?wsdl</wsdlUrl>
+                                <wsdlUrl>http://qa1.customerconnector.bwin.intranet/1.2/CustomerConnector.svc?wsdl</wsdlUrl>
+                            </wsdlUrls>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.1.0</version>

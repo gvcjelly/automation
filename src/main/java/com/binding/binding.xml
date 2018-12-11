@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jxb:bindings version="1.0"
+              xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+              xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+              xmlns:annox="http://annox.dev.java.net"
+              xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <jxb:globalBindings collectionType="java.util.ArrayList"
+                        underscoreBinding="asCharInWord"
+                        enableJavaNamingConventions="true" generateIsSetMethod="false"
+                        typesafeEnumBase="xs:string" typesafeEnumMemberName="generateName">
+        <jxb:serializable uid="1" />
+    </jxb:globalBindings>
+
+</jxb:bindings>

@@ -59,8 +59,8 @@ public class TC_001_Login extends BasicSetup {
     public void openLoginPage() {
         WebDriverWait wait = new WebDriverWait(driver, 10);
 
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.className(btn_LogIn)));
-        WebElement login = driver.findElement(By.className(btn_LogIn));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id(btn_LogIn)));
+        WebElement login = driver.findElement(By.id(btn_LogIn));
         if (login != null && login.getText().contains("LOG IN")) {
             login.click();
         } else {

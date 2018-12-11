@@ -2,5 +2,5 @@ package com.automation.gvc.PageObjects;
 
 public interface HomePage {
 
-    String btn_LogIn = "btn-s3";
+    String btn_LogIn = "login-overlay-button";
 }

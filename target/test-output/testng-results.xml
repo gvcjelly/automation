@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TC_001_Add_Item_To_Cart" duration-ms="6125" started-at="2018-12-11T08:59:06Z" finished-at="2018-12-11T08:59:12Z">
+    <groups>
+    </groups>
+    <test name="TC_001_Login" duration-ms="6125" started-at="2018-12-11T08:59:06Z" finished-at="2018-12-11T08:59:12Z">
+      <class name="com.automation.gvc.test.TC_001_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.automation.gvc.test.TC_001_Login@11e7682]" name="setup" is-config="true" duration-ms="2551" started-at="2018-12-11T08:59:04Z" finished-at="2018-12-11T08:59:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.automation.gvc.test.TC_001_Login@11e7682]" name="startTest" is-config="true" duration-ms="73" started-at="2018-12-11T08:59:06Z" finished-at="2018-12-11T08:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:com.automation.gvc.test.TC_001_Login@11e7682]" name="openHomePage" duration-ms="4716" started-at="2018-12-11T08:59:06Z" finished-at="2018-12-11T08:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:com.automation.gvc.test.TC_001_Login@11e7682]" name="report" is-config="true" duration-ms="488" started-at="2018-12-11T08:59:11Z" finished-at="2018-12-11T08:59:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openHomePage status=SUCCESS method=TC_001_Login.openHomePage()[pri:0, instance:com.automation.gvc.test.TC_001_Login@11e7682] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.automation.gvc.test.TC_001_Login@11e7682]" name="openLoginPage" duration-ms="122" started-at="2018-12-11T08:59:11Z" finished-at="2018-12-11T08:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:com.automation.gvc.test.TC_001_Login@11e7682]" name="report" is-config="true" duration-ms="425" started-at="2018-12-11T08:59:12Z" finished-at="2018-12-11T08:59:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openLoginPage status=SUCCESS method=TC_001_Login.openLoginPage()[pri:0, instance:com.automation.gvc.test.TC_001_Login@11e7682] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.gvc.test.TC_001_Login@11e7682]" name="tearDown" is-config="true" duration-ms="285" started-at="2018-12-11T08:59:12Z" finished-at="2018-12-11T08:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.automation.gvc.test.TC_001_Login@11e7682]" name="finish" is-config="true" duration-ms="678" started-at="2018-12-11T08:59:12Z" finished-at="2018-12-11T08:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.automation.gvc.test.TC_001_Login -->
+    </test> <!-- TC_001_Login -->
+  </suite> <!-- TC_001_Add_Item_To_Cart -->
+</testng-results>

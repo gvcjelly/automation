@@ -7,7 +7,7 @@
     <test verbose="2" preserve-order="true" name="TC_001_Login">
         <parameter name="browser" value="chrome" />
     <classes>
-        <class name="com.automation.gvc.test.TC_001_Login">
+        <class name="com.automation.gvc.test.frontend.TC_001_Login">
             <methods>
                 <include name="openHomePage"/>
                 <include name="openLoginPage"/>

@@ -7,8 +7,10 @@
 
     <jxb:globalBindings collectionType="java.util.ArrayList"
                         underscoreBinding="asCharInWord"
-                        enableJavaNamingConventions="true" generateIsSetMethod="false"
-                        typesafeEnumBase="xs:string" typesafeEnumMemberName="generateName">
+                        enableJavaNamingConventions="true"
+                        generateIsSetMethod="false"
+                        typesafeEnumBase="xs:string"
+                        typesafeEnumMemberName="generateName">
         <jxb:serializable uid="1" />
     </jxb:globalBindings>
 

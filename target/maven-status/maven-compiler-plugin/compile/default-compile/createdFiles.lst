@@ -41,6 +41,7 @@ com\bwin\xmlns\types\earlypayoutservice\_3\GetStatusResponse.class
 com\bwin\xmlns\services\customerconnector\_1\ChangeUserCountry.class
 com\bwin\xmlns\services\earlypayoutservice\_3\EarlyPayoutService.class
 com\bwin\xmlns\types\earlypayoutservice\_3\RemoveAutoCashoutRequest.class
+com\automation\gvc\test\frontend\TC_001_Login.class
 org\tempuri\ICustomerConnectorServiceGetAssociatedAccountsMalformedRequestFaultFaultFaultMessage.class
 com\bwin\xmlns\services\earlypayoutservice\_3\GetEarlyPayoutConstraints.class
 com\bwin\xmlns\services\customerconnector\_1\SetCurrency.class
@@ -59,7 +60,6 @@ com\bwin\xmlns\services\earlypayoutservice\_3\IEarlyPayoutServiceEarlyPayoutRequ
 com\bwin\xmlns\services\earlypayoutservice\_3\EarlyPayoutResponse.class
 com\bwin\xmlns\types\earlypayoutservice\_3\GetAutoCashoutResponse.class
 org\datacontract\schemas\_2004\_07\bwin_sportsbook_customerconnector_service_datacontracts\GetExternalIdResponse.class
-com\automation\gvc\test\TC_001_Login.class
 org\tempuri\ICustomerConnectorServiceGetCustomerDataMalformedRequestFaultFaultFaultMessage.class
 com\bwin\xmlns\services\customerconnector\_1\BulkLookUpByForeignSystemIdResponse.class
 com\bwin\xmlns\types\earlypayoutservice\_3\GetAutoCashoutRequest.class

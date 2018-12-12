@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://xmlns.bwin.com/services/EarlyPayoutService/2.1" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://tempuri.org/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="EarlyPayoutService" targetNamespace="http://xmlns.bwin.com/services/EarlyPayoutService/2.1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org/" location="http://integration.earlypayout.bwin.dev/2.1/EarlyPayoutService.svc?wsdl=wsdl0" />
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/Imports">
+      <xsd:import schemaLocation="http://integration.earlypayout.bwin.dev/3.0/EarlyPayoutService.svc?xsd=xsd0" namespace="http://xmlns.bwin.com/services/EarlyPayoutService/3.0" />
+      <xsd:import schemaLocation="http://integration.earlypayout.bwin.dev/2.1/EarlyPayoutService.svc?xsd=xsd2" namespace="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" />
+      <xsd:import schemaLocation="http://integration.earlypayout.bwin.dev/2.1/EarlyPayoutService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://integration.earlypayout.bwin.dev/2.1/EarlyPayoutService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEarlyPayoutService_EarlyPayout_InputMessage">
+    <wsdl:part name="parameters" element="tns:EarlyPayout" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_EarlyPayout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EarlyPayoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_EarlyPayout_TechnicalFaultFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" name="detail" element="q1:TechnicalFault" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_EarlyPayout_RequestIdBlockedFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" name="detail" element="q2:RequestIdBlockedFault" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_GetStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStatus" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_GetStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_GetStatus_TechnicalFaultFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" name="detail" element="q3:TechnicalFault" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_GetStatus_RequestIdBlockedFaultFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" name="detail" element="q4:RequestIdBlockedFault" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_GetStatus_RequestIdNotFoundFaultFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" name="detail" element="q5:RequestIdNotFoundFault" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_GetEarlyPayoutConstraints_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEarlyPayoutConstraints" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_GetEarlyPayoutConstraints_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEarlyPayoutConstraintsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_GetEarlyPayoutConstraints_TechnicalFaultFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" name="detail" element="q6:TechnicalFault" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_CheckPossibleEarlyPayout_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckPossibleEarlyPayout" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_CheckPossibleEarlyPayout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckPossibleEarlyPayoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_CheckPossibleEarlyPayout_TechnicalFaultFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" name="detail" element="q7:TechnicalFault" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_CheckPossibleEarlyPayoutAndSubscribe_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckPossibleEarlyPayoutAndSubscribe" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_CheckPossibleEarlyPayoutAndSubscribe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckPossibleEarlyPayoutAndSubscribeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_CheckPossibleEarlyPayoutAndSubscribe_TechnicalFaultFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" name="detail" element="q8:TechnicalFault" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_UndoEarlyPayout_InputMessage">
+    <wsdl:part name="parameters" element="tns:UndoEarlyPayout" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_UndoEarlyPayout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UndoEarlyPayoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_UndoEarlyPayout_TechnicalFaultFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" name="detail" element="q9:TechnicalFault" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_SetAutoCashout_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetAutoCashout" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_SetAutoCashout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetAutoCashoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEarlyPayoutService_SetAutoCashout_TechnicalFaultFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://xmlns.bwin.com/types/EarlyPayoutService/2.1" name="detail" element="q10:TechnicalFault" />
+  </wsdl:message>
+  <wsdl:portType name="IEarlyPayoutService">
+    <wsdl:operation name="EarlyPayout">
+      <wsdl:input wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/EarlyPayout" message="tns:IEarlyPayoutService_EarlyPayout_InputMessage" />
+      <wsdl:output wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/EarlyPayoutResponse" message="tns:IEarlyPayoutService_EarlyPayout_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/EarlyPayoutTechnicalFaultFault" name="TechnicalFaultFault" message="tns:IEarlyPayoutService_EarlyPayout_TechnicalFaultFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/EarlyPayoutRequestIdBlockedFaultFault" name="RequestIdBlockedFaultFault" message="tns:IEarlyPayoutService_EarlyPayout_RequestIdBlockedFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <wsdl:input wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/GetStatus" message="tns:IEarlyPayoutService_GetStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/GetStatusResponse" message="tns:IEarlyPayoutService_GetStatus_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/GetStatusTechnicalFaultFault" name="TechnicalFaultFault" message="tns:IEarlyPayoutService_GetStatus_TechnicalFaultFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/GetStatusRequestIdBlockedFaultFault" name="RequestIdBlockedFaultFault" message="tns:IEarlyPayoutService_GetStatus_RequestIdBlockedFaultFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/GetStatusRequestIdNotFoundFaultFault" name="RequestIdNotFoundFaultFault" message="tns:IEarlyPayoutService_GetStatus_RequestIdNotFoundFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEarlyPayoutConstraints">
+      <wsdl:input wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/GetEarlyPayoutConstraints" message="tns:IEarlyPayoutService_GetEarlyPayoutConstraints_InputMessage" />
+      <wsdl:output wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/GetEarlyPayoutConstraintsResponse" message="tns:IEarlyPayoutService_GetEarlyPayoutConstraints_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/GetEarlyPayoutConstraintsTechnicalFaultFault" name="TechnicalFaultFault" message="tns:IEarlyPayoutService_GetEarlyPayoutConstraints_TechnicalFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckPossibleEarlyPayout">
+      <wsdl:input wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/CheckPossibleEarlyPayout" message="tns:IEarlyPayoutService_CheckPossibleEarlyPayout_InputMessage" />
+      <wsdl:output wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/CheckPossibleEarlyPayoutResponse" message="tns:IEarlyPayoutService_CheckPossibleEarlyPayout_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/CheckPossibleEarlyPayoutTechnicalFaultFault" name="TechnicalFaultFault" message="tns:IEarlyPayoutService_CheckPossibleEarlyPayout_TechnicalFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckPossibleEarlyPayoutAndSubscribe">
+      <wsdl:input wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/CheckPossibleEarlyPayoutAndSubscribe" message="tns:IEarlyPayoutService_CheckPossibleEarlyPayoutAndSubscribe_InputMessage" />
+      <wsdl:output wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/CheckPossibleEarlyPayoutAndSubscribeResponse" message="tns:IEarlyPayoutService_CheckPossibleEarlyPayoutAndSubscribe_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/CheckPossibleEarlyPayoutAndSubscribeTechnicalFaultFault" name="TechnicalFaultFault" message="tns:IEarlyPayoutService_CheckPossibleEarlyPayoutAndSubscribe_TechnicalFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UndoEarlyPayout">
+      <wsdl:input wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/UndoEarlyPayout" message="tns:IEarlyPayoutService_UndoEarlyPayout_InputMessage" />
+      <wsdl:output wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/UndoEarlyPayoutResponse" message="tns:IEarlyPayoutService_UndoEarlyPayout_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/UndoEarlyPayoutTechnicalFaultFault" name="TechnicalFaultFault" message="tns:IEarlyPayoutService_UndoEarlyPayout_TechnicalFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetAutoCashout">
+      <wsdl:input wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/SetAutoCashout" message="tns:IEarlyPayoutService_SetAutoCashout_InputMessage" />
+      <wsdl:output wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/SetAutoCashoutResponse" message="tns:IEarlyPayoutService_SetAutoCashout_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://xmlns.bwin.com/services/EarlyPayoutService/2.1/IEarlyPayoutService/SetAutoCashoutTechnicalFaultFault" name="TechnicalFaultFault" message="tns:IEarlyPayoutService_SetAutoCashout_TechnicalFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="EarlyPayoutService">
+    <wsdl:port name="BasicHttpBinding_IEarlyPayoutService" binding="i0:BasicHttpBinding_IEarlyPayoutService">
+      <soap:address location="http://integration.earlypayout.bwin.dev/2.1/EarlyPayoutService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

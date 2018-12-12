@@ -65,6 +65,9 @@ public class BasicSetup {
         }
     }
 
+    @BeforeSuite
+
+
 
     @AfterMethod
     public void report(ITestResult result) throws Exception {

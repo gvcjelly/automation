@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://xmlns.bwin.com/services/EarlyPayoutService/2.1" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://xmlns.bwin.com/services/EarlyPayoutService/3.0" location="http://integration.earlypayout.bwin.dev/3.0/EarlyPayoutService.svc?wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IEarlyPayoutService" type="i0:IEarlyPayoutService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EarlyPayout">
+      <soap:operation soapAction="http://xmlns.bwin.com/services/EarlyPayoutService/3.0/IEarlyPayoutService/EarlyPayout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="TechnicalFaultFault">
+        <soap:fault use="literal" name="TechnicalFaultFault" namespace="" />
+      </wsdl:fault>
+      <wsdl:fault name="RequestIdBlockedFaultFault">
+        <soap:fault use="literal" name="RequestIdBlockedFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <soap:operation soapAction="http://xmlns.bwin.com/services/EarlyPayoutService/3.0/IEarlyPayoutService/GetStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="TechnicalFaultFault">
+        <soap:fault use="literal" name="TechnicalFaultFault" namespace="" />
+      </wsdl:fault>
+      <wsdl:fault name="RequestIdBlockedFaultFault">
+        <soap:fault use="literal" name="RequestIdBlockedFaultFault" namespace="" />
+      </wsdl:fault>
+      <wsdl:fault name="RequestIdNotFoundFaultFault">
+        <soap:fault use="literal" name="RequestIdNotFoundFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEarlyPayoutConstraints">
+      <soap:operation soapAction="http://xmlns.bwin.com/services/EarlyPayoutService/3.0/IEarlyPayoutService/GetEarlyPayoutConstraints" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="TechnicalFaultFault">
+        <soap:fault use="literal" name="TechnicalFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckPossibleEarlyPayout">
+      <soap:operation soapAction="http://xmlns.bwin.com/services/EarlyPayoutService/3.0/IEarlyPayoutService/CheckPossibleEarlyPayout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="TechnicalFaultFault">
+        <soap:fault use="literal" name="TechnicalFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckPossibleEarlyPayoutAndSubscribe">
+      <soap:operation soapAction="http://xmlns.bwin.com/services/EarlyPayoutService/3.0/IEarlyPayoutService/CheckPossibleEarlyPayoutAndSubscribe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="TechnicalFaultFault">
+        <soap:fault use="literal" name="TechnicalFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="UndoEarlyPayout">
+      <soap:operation soapAction="http://xmlns.bwin.com/services/EarlyPayoutService/3.0/IEarlyPayoutService/UndoEarlyPayout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="TechnicalFaultFault">
+        <soap:fault use="literal" name="TechnicalFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SetAutoCashout">
+      <soap:operation soapAction="http://xmlns.bwin.com/services/EarlyPayoutService/3.0/IEarlyPayoutService/SetAutoCashout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="TechnicalFaultFault">
+        <soap:fault use="literal" name="TechnicalFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>
